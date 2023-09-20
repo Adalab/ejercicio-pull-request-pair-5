@@ -1,3 +1,10 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45vh;
+}
+
 .head {
     background: #fc0;
     height: 100px;
@@ -6,10 +13,10 @@
   }
   .face {
     font-family: 'courier new', serif;
-    font-size: 2.5em;
+    font-size: 6rem;
     font-weight: bold;
     left: 50%;
     position: absolute;
-    top: 50%;
+    top: 50%; 
     transform: translate(-50%, -60%) rotate(90deg);
   }
