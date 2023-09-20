@@ -1,8 +1,19 @@
+
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45vh;
+}
+
+
 .head {
     background: #fc0;
     height: 100px;
     position: relative;
     width: 100px;
+
     border-radius: 50%;
   }
   .face {
@@ -15,3 +26,5 @@
     transform: translate(-50%, -60%) rotate(90deg);
 
   }
+
+  
